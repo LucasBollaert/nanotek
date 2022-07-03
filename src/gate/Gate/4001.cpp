@@ -1,7 +1,29 @@
-#include "../include/AComponent.hpp"
-#include "gateInclude/4001.hpp"
+/*
+** EPITECH PROJECT, 2021
+** B-OOP-400-BRU-4-1-tekspice-Bollaert.Lucas
+** File description:
+** AComponent.hpp
+*/
 
-nts::Tristate nts::or4001::compute(std::size_t pin)
+#include "../include/4001.hpp"
+
+nts::4001::4001() {
+
+}
+
+nts::4001::~4001(){
+
+}
+
+void nts::4001::simulate(std::size_t tick){
+    std::cout << "nts::4001::simulate dans 4001.cpp" << std::endl;
+}
+
+void nts::4001::dump() const{
+    std::cout << "nts::4001::Dump dans 4001.cpp" << std::endl;
+}
+
+nts::Tristate nts::4001::compute(std::size_t pin)
 {
     switch (pin) {
         case 3:

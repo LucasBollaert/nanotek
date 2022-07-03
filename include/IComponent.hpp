@@ -1,12 +1,11 @@
 /*
 ** EPITECH PROJECT, 2021
-** B-OOP-400-BRU-4-1-tekspice-guillaume.janssens [WSL: Ubuntu-20.04]
+** B-OOP-400-BRU-4-1-tekspice-Bollaert.Lucas
 ** File description:
-** components.hpp
+** IComponent.hpp
 */
 
 #include <iostream>
-#include "AComponent.hpp"
 #include <vector>
 #pragma once
 

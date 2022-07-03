@@ -7,13 +7,12 @@
 
 RM	=	rm -f
 
-SRC	=	src/main.cpp	\
-		src/config.cpp	\
-		src/shell.cpp
+SRC	=	src/main.cpp		\
+		src/Gate/4001.cpp	\
 
 OBJ	=	$(SRC:.cpp=.o)
 
-CXXFLAGS	=	 -std=c++2a -Wall -Wextra -I src/ -I include/
+CXXFLAGS	=	-std=c++2a -Wall -Wextra -I src/ -I include/
 
 NAME	=	nanotekspice
 
@@ -28,4 +27,4 @@ clean:
 fclean:	clean
 	$(RM) $(NAME)
 
-re: 	fclean all
+re:	fclean all
